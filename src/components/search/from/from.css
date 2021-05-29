@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-evenly;
   width: 100%;
+  margin-bottom: 25px;
 }
 .from input:not(input[type="submit"]) {
   height: 35px;
@@ -30,6 +31,8 @@
     align-items: center;
     justify-content: space-evenly;
     height: 35vh;
+  margin-bottom: 25px;
+
   }
   .from input:not(input[type="submit"]) {
     width: 250px;
