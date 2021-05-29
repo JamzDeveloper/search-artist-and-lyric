@@ -1,0 +1,12 @@
+.lyric--container--lyric {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.lyric--lyric {
+  white-space: pre-wrap;
+}
+.lyric--title{
+    text-align: center;
+    margin: 50px 0px;
+}

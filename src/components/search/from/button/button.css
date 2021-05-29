@@ -1,0 +1,25 @@
+.from input:not(input[type="text"]){
+  text-align:center;
+  width:155px;
+  height:35px;
+  border-radius: 6px;
+  background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+  color:white;  
+  font-weight: 700;
+}
+@media (max-width:912px){
+  
+  .from input:not(input[type="text"]){
+    margin-left: -22px;
+  }
+  
+}
+@media (max-width:300px){
+  
+  .from input:not(input[type="text"]){
+  width:100px;
+  margin-left: -32px;
+
+  }
+  
+}

@@ -1,0 +1,42 @@
+.container--from {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.from input:not(input[type="submit"]) {
+  height: 35px;
+  width: 252px;
+  padding: 0 0 0 10px;
+  margin-right: 20px;
+  border-radius: 6px;
+  outline: 0;
+  border: 0;
+  background: #fff;
+  color: #222;
+  line-height: 50px;
+  font-size: 1rem;
+  outline: 0;
+}
+/*.from input:focus{
+}*/
+.from input:not(input[type="submit"]) {
+  width: 350px;
+}
+
+@media (max-width: 912px) {
+  .from {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 35vh;
+  }
+  .from input:not(input[type="submit"]) {
+    width: 250px;
+  }
+}
+@media (max-width: 300px) {
+  .from input:not(input[type="submit"]) {
+    width: 200px;
+  }
+}
